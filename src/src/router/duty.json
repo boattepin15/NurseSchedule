@@ -1,0 +1,71 @@
+{
+   "data": [
+       {
+           "_id": "630f0e34d8585d000908fe77",
+           "_group1": "AAA-บ้านม่วง",
+           "_group2": "BBB-บ้านม่วง",
+           "member1": {
+               "_id": "62d7ffd8cee63508406b6130",
+               "frist_name": "TEST3",
+               "last_name": "TEST3",
+               "email": "TEST3@gmail.com",
+               "password": "$2a$10$BANBZ2W2Y9I3nxCmGBSlUuBTQcfxNjZpfB3eAQzbxle78biemcU7.",
+               "actor": "พยาบาล",
+               "location": "โรงพยาบาลบ้านม่วง",
+               "tokenVersion": 1,
+               "__v": 0
+           },
+           "member2": {
+               "_id": "62cd353016eaaf266706a5c1",
+               "frist_name": "TEST200",
+               "last_name": "TEST20",
+               "email": "TEST2@gmail.com",
+               "password": "$2a$10$qZPpeucXGzXPL1pIDy4oHuVt5l3d49DUZwVYDibYwC5O7oxEg4z1K",
+               "actor": "พยาบาล",
+               "location": "โรงพยาบาลบ้านม่วง",
+               "tokenVersion": 3,
+               "__v": 0
+           },
+           "_duty1": {
+               "_id": "62ea1f0286e795a46456e933",
+               "_user": "62d7ffd8cee63508406b6130",
+               "year": "2022",
+               "month": "8",
+               "day": "27",
+               "group": "AAA-บ้านม่วง",
+               "morning": 0,
+               "noon": 1,
+               "night": 0,
+               "count": 1,
+               "__v": 0
+           },
+           "_duty2": {
+               "_id": "62ea1efe86e795a46456e8b1",
+               "_user": "62cd353016eaaf266706a5c1",
+               "year": "2022",
+               "month": "8",
+               "day": "25",
+               "group": "BBB-บ้านม่วง",
+               "morning": 0,
+               "noon": 0,
+               "night": 1,
+               "count": 1,
+               "__v": 0
+           },
+           "member_shift1": [
+               {
+                   "noon": 1
+               }
+           ],
+           "member_shift2": [
+               {
+                   "night": 1
+               }
+           ],
+           "member_approve": false,
+           "show": true,
+           "approve": false,
+           "__v": 0
+       }
+   ]
+}
